@@ -3,9 +3,7 @@
 First, install latest ldap3:
 sudo pip3 install ldap
 
-
-#!/usr/bin/python3
-
++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
 import ldap3
 
 SERVER='127.0.0.1'
@@ -44,3 +42,4 @@ if USER_DN:
     print(ldap3.extend.microsoft.modifyPassword.ad_modify_password(conn, USER_DN, NEWPWD, CURREENTPWD,  controls=None))
 else:
     print("User DN is missing!")
++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
