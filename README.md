@@ -18,7 +18,7 @@ pip3 install ldap3
 <br>USER_DN=""
 <br>USER_CN=""
 <br>
-<br>ldap_server = ldap3.Server(SERVER, get_info=ldap3.ALL)
+<br>Ldap_server = ldap3.Server(SERVER, get_info=ldap3.ALL)
 <br>
 <br>#### conn = ldap3.Connection(ldap_server, USER, CURREENTPWD, auto_bind=True)
 <br>
