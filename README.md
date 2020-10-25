@@ -1,6 +1,6 @@
 # Changing-Active-Directory-user-password-in-Python-3.x
-
-First, install latest ldap3:
+<br>
+First, install latest ldap3:<br>
 sudo pip3 install ldap
 
 
